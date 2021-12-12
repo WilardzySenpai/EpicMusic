@@ -1,8 +1,8 @@
 module.exports = {
     app: {
-        px: 'd?',
-        token: 'OTA5NzQxNzE0NjE5NjYyMzY4.YZIs_g.qtiuV-VQxcBRJnP7ufByZ2tInLA',
-        playing: 'SkyAnime Music'
+        px: 'PREFIX',
+        token: 'BOT_TOKEN',
+        playing: 'ACTIVITY'
     },
 
     opt: {
@@ -11,7 +11,7 @@ module.exports = {
             roleName: 'DJ',
             commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'seek', 'shuffle', 'skip', 'stop', 'volume']
         },
-        maxVol: 999999999999999999999999999999999999999999999999999999999999999999999999999999,
+        maxVol: CUSTOM_VOLUME,
         loopMessage: false,
         discordPlayer: {
             ytdlOptions: {
